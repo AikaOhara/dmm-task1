@@ -33,16 +33,33 @@ background-color: #EEEEEE;
 position: relative;
 margin-right: 30px;
 
-
 }
 
-.blog-image{
+.blog-image1{
 margin: 10px;
 width: 280px;
 height: 150px;
+background-image: url("../img/flow01.png");
+background-size: 100% 100%;
 
 }
 
+.blog-image2{
+margin: 10px;
+width: 280px;
+height: 150px;
+background-image: url("../img/flow02.png");
+background-size: 100% 100%;
+
+}
+.blog-image3{
+margin: 10px;
+width: 280px;
+height: 150px;
+background-image: url("../img/flow03.png");
+background-size: 100% 100%;
+
+}
 
 
 .blog-text{
@@ -70,7 +87,6 @@ text-align: left;
 .main-visual{
 width: 960px;
 height: 150px;
-background-image: url(img/mv.png);
 background-size: auto;
     
 }
@@ -99,12 +115,14 @@ header{
 
     main{
         width: 100%;
-    
+        margin: auto;
+         padding-top: 50px;
+         padding-bottom: 50px;
+         
     }
     
-    .blog{
-        width: 100%;
-        
+.blog{
+width: 90%;
         
     }
     
@@ -114,22 +132,46 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-padding-top: 30px;
+gap: 20px;
 
-      
     }
     
 .blog-item{
 width: 100%;
-margin: 10px;
+margin-left: auto;
+margin-right: auto;
 
+display: flex;
+flex-direction: column;
+justify-content: center;
 
     }
+
+.blog-text{
+    width: 90%;
+    
+}
+
+.blog-image1{
+    width: 90%;
+    height: 150px;
+
+}
+
+.blog-image2{
+    width: 90%;
+    height: 150px;
+}
+
+.blog-image3{
+    width: 90%;
+    height: 150px;
+}
      
     footer{
         width: 100%;
     }   
         
         
-    }
+}
     
